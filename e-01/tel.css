@@ -1,0 +1,100 @@
+button{
+    border-radius: 10px; 
+    border: 2px solid #000000; 
+    background-color: #292929; 
+    color: #dbc49a;
+    font-size: 120%;
+    border-radius: 4px;
+}
+button:hover{
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: #525252; 
+    color: #dfd0b6;
+    font-size: 120%;
+}
+button:hover:after{
+    transition-duration: 1s;
+    background-color: #292929; 
+    color: #dbc49a;
+}
+
+#pave{
+
+    position: relative;
+
+    left: 25%;
+    width: 50%;
+
+    top: 40px;
+
+}
+
+    #pave #button-0{
+        width: 64%;
+    }
+
+    #pave #button-r{
+        width: 30.5%;
+    }
+
+    #pave button{
+        width: 31%;
+        margin-left: 1%;
+    }
+
+#numero-tel-box{
+    width: 40%;
+    text-align: center;
+    position:relative;
+    left: 30%;
+
+    margin: 0;
+}
+    #numero-tel-box #numero-tel-box-text{
+        border-radius: 10px; 
+        background-color: #3d3d3d;
+        color: #E5BB6F; 
+        font-size: 120%;
+    }
+        #numero-tel-box #numero-tel-box-text p{
+            color:E5BB6F; 
+            font-size: 150%;
+
+            margin: 0;
+        }
+    #numero-tel-box #button-call{
+        margin-top: 10px;
+        width: 50%;
+
+        background-color: #474747; 
+    }
+    #numero-tel-box #button-call:hover{
+        background-color: #777676;
+        color: #dfd9cf;
+    }
+
+    #numero-tel-box #call-error{
+        margin: 5px,0,-10px,0;
+        color: rgb(138, 1, 1);
+        font-size: 110%;
+    }
+
+#reussite{
+    color:E5BB6F; 
+    font-size: 150%;
+    text-align:center;
+    position:relative;
+    left:10%;
+    margin: 0;
+    max-width: 80%;
+}
+
+#reussite-2{
+    color:E5BB6F; 
+    font-size: 150%;
+    position:relative;
+    left:10%;
+    max-width: 80%;
+    margin: 0;
+}

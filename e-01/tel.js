@@ -72,6 +72,9 @@ function Call(){
             document.getElementById("reussite").innerHTML = decrypt(appel, content)
             document.getElementById("reussite-2").innerHTML = decrypt(message, content)
             setTimeout(clear_error, 3000)
+        }else{
+            document.getElementById("call-error").innerHTML = "Erreur numéro invalide."
+            setTimeout(clear_error, 3000)
         }
     }else{
         document.getElementById("call-error").innerHTML = "Erreur veuillez inserer un numéro correcte."
